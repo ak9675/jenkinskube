@@ -1,7 +1,7 @@
 resource "aws_instance" "myec" {
   ami           = "ami-0568773882d492fc8"
   instance_type = "t2.nano"
-  count = 2
+  count = 1
 }
 
 output "myec2ip" {
